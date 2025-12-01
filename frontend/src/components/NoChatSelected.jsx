@@ -10,7 +10,7 @@ const NoChatSelected = () => {
             >
               <div className="absolute flex items-center gap-1">
                 <p
-                  className="rounded-full bg-white size-1 z-90 animate-bounce-small"
+                  className="rounded-full bg-secondary size-1 z-90 animate-bounce-small"
                   style={{
                     animationDelay: "0s",
                     animationDuration: "2s",
@@ -18,7 +18,7 @@ const NoChatSelected = () => {
                   }}
                 ></p>
                 <p
-                  className="rounded-full bg-white size-1 z-90 animate-bounce-medium"
+                  className="rounded-full bg-secondary size-1 z-90 animate-bounce-medium"
                   style={{
                     animationDelay: "0.2s",
                     animationDuration: "2s",
@@ -26,7 +26,7 @@ const NoChatSelected = () => {
                   }}
                 ></p>
                 <p
-                  className="rounded-full bg-white size-1 z-90 animate-bounce-large"
+                  className="rounded-full bg-secondary size-1 z-90 animate-bounce-large"
                   style={{
                     animationDelay: "0.3s",
                     animationDuration: "2s",
@@ -39,7 +39,7 @@ const NoChatSelected = () => {
           </div>
         </div>
 
-        <h2 className="text-2xl font-bold">Welcome to Textory!</h2>
+        <h2 className="text-2xl font-bold">Welcome to Connectify!</h2>
         <p className="text-base-content/60">
           Select a conversation from the sidebar to start chatting...
         </p>
