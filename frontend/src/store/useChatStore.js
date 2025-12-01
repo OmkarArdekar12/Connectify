@@ -17,6 +17,7 @@ export const useChatStore = create((set, get) => ({
       const res = await axiosInstance.get("/messages/users");
       set({ users: res.data });
     } catch (error) {
+      set({ users: [] });
       // toast.error(error.response.data.message);
       toast.error("Something went wrong! try again");
     } finally {
@@ -30,6 +31,7 @@ export const useChatStore = create((set, get) => ({
       const res = await axiosInstance.get(`/messages/${userId}`);
       set({ messages: res.data });
     } catch (error) {
+      set({ messages: [] });
       // toast.error(error.response.data.message);
       toast.error("Something went wrong! try again");
     } finally {
