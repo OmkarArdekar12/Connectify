@@ -18,7 +18,7 @@ const Navbar = () => {
               <div className="size-9 flex items-center justify-center">
                 <div className="absolute flex items-center gap-1">
                   <p
-                    className="rounded-full bg-white size-1 z-90 animate-bounce-small"
+                    className="rounded-full bg-gray-700 size-1 z-90 animate-bounce-small"
                     style={{
                       animationDelay: "0s",
                       animationDuration: "2s",
@@ -27,7 +27,7 @@ const Navbar = () => {
                     }}
                   ></p>
                   <p
-                    className="rounded-full bg-white size-1 z-90 animate-bounce-medium"
+                    className="rounded-full bg-gray-700 size-1 z-90 animate-bounce-medium"
                     style={{
                       animationDelay: "0.2s",
                       animationDuration: "2s",
@@ -36,7 +36,7 @@ const Navbar = () => {
                     }}
                   ></p>
                   <p
-                    className="rounded-full bg-white size-1 z-90 animate-bounce-large"
+                    className="rounded-full bg-gray-700 size-1 z-90 animate-bounce-large"
                     style={{
                       animationDelay: "0.3s",
                       animationDuration: "2s",
@@ -47,7 +47,7 @@ const Navbar = () => {
                 </div>
                 <img src="/Logo.png" alt="Textory" className="logo w-14 z-40" />
               </div>
-              <h1 className="text-lg font-bold tracking-widest">TEXTORY</h1>
+              <h1 className="text-lg font-bold tracking-widest">CONNECTIFY</h1>
             </Link>
           </div>
 
