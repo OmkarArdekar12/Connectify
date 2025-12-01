@@ -1,5 +1,18 @@
 # Connectify - Start Messaging
 
+![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Zustand](https://img.shields.io/badge/Zustand-764ABC?style=for-the-badge&logo=zustand&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+![JWT Authentication](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![MERN Stack](https://img.shields.io/badge/MERN-2A2A2A?style=for-the-badge&logo=mongodb&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
+
 ### Connectify is a real-time messaging application built with the MERN stack and Socket.IO for seamless live communication. It features a modern React frontend styled with Tailwind CSS & DaisyUI, along with efficient global state management using Zustand. Users can sign up, log in, and chat effortlessly — sending both text and images in real time. With 35+ built-in UI themes, Connectify offers a customizable and engaging chat experience for every user.
 
 <h3><a href="https://connectify-messenger.onrender.com" rel="noopener noreferrer" target="_blank">Live: https://connectify-messenger.onrender.com</a></h3>
