@@ -1,0 +1,62 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui" {
+  themes: "light", "dark", "cupcake", "bumblebee", "emerald", "corporate",
+    "synthwave", "retro", "cyberpunk", "valentine", "halloween", "garden",
+    "forest", "aqua", "lofi", "pastel", "fantasy", "wireframe", "black",
+    "luxury", "dracula", "cmyk", "autumn", "business", "acid", "lemonade",
+    "night", "coffee", "winter", "dim", "nord", "sunset", "caramellatte",
+    "abyss", "silk";
+}
+
+.logo {
+  filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.5));
+}
+
+@keyframes bounce-small {
+  0%,
+  100% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(-4px);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+@keyframes bounce-medium {
+  0%,
+  100% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(-6px);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+@keyframes bounce-large {
+  0%,
+  100% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(-8px);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.animate-bounce-small {
+  animation: bounce-small 0.6s infinite;
+}
+
+.animate-bounce-medium {
+  animation: bounce-medium 0.6s infinite;
+}
+
+.animate-bounce-large {
+  animation: bounce-large 0.6s infinite;
+}
