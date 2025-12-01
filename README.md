@@ -57,7 +57,7 @@ openssl rand -base64 32
 
 ```
 MODE=production  #or your_port
-BASE_URL=http://localhost:5001 #or your_backend_url
+VITE_BACKEND_BASE_URL=http://localhost:5001 #or your_backend_url
 ```
 
 ### 3. Backend Setup
