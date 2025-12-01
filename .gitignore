@@ -47,3 +47,4 @@ dist-ssr
 # Sample/testing Data
 backend/src/seeds/
 seeds/
+PROJECT_README.md
